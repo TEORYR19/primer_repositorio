@@ -28,6 +28,27 @@ for($i=0; $i<$longitud; $i++)
 echo "<br>";
 }
 echo "<br>";
+echo "RESTA ENTRE ARREGLOS <br>";
+for($i=0; $i<$longitud; $i++)
+	{echo $array1[$i]."  -  ".$array2[$i]."  =  ".$arrayresta[$i];
+echo "<br>";
+}
+echo "<br>";
+
+echo "MULTI ENTRE ARREGLOS <br>";
+for($i=0; $i<$longitud; $i++)
+	{echo $array1[$i]."  *  ".$array2[$i]."  =  ".$arraymulti[$i];
+echo "<br>";
+}
+echo "<br>";
+
+echo "DIVI ENTRE ARREGLOS <br>";
+for($i=0; $i<$longitud; $i++)
+	{echo $array1[$i]."  /  ".$array2[$i]."  =  ".$arraydivi[$i];
+echo "<br>";
+}
+echo "<br>";
+?>
 
 
 
